@@ -70,7 +70,10 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_BSP -DNO_SECURE_DISCARD
 # Audio
 BOARD_USES_LEGACY_ALSA_AUDIO := true
 
-#bluetooth
+# Charger
+BOARD_CHARGER_RES := device/motorola/moto_msm8960dt/charger
+
+# Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 # Graphics
